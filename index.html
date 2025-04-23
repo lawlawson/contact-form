@@ -10,29 +10,35 @@
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png" />
-
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Contact form</title>
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <form action="" method="" class="">
-      <label for="firstname">First Name *</label>
-      <input type="text" id="firstname" name="firstname" />
-      <label for="lastname">Last Name *</label>
-      <input type="text" id="lastname" name="lastname" />
-      <label for="lastname">Email Address *</label>
-      <input type="email" id="email" name="email" />
-      <fieldset>
-        <label for="query">Query Type *</label>
-        <legend>Do you agree to the terms?</legend>
-        <label><input type="radio" name="radio" value="yes" /> Yes</label>
-        <label><input type="radio" name="radio" value="no" /> No</label>
-      </fieldset>
-      <label for="textarea">Message *</label>
-      <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-      <label for="vehicle1"> I consent to being contacted by the team *</label>
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="" method="" class="">
+        <label for="firstname">First Name *</label>
+        <input type="text" id="firstname" name="firstname" />
+        <label for="lastname">Last Name *</label>
+        <input type="text" id="lastname" name="lastname" />
+        <label for="lastname">Email Address *</label>
+        <input type="email" id="email" name="email" />
+        <fieldset>
+          <label for="query">Query Type *</label>
+          <legend>Do you agree to the terms?</legend>
+          <label><input type="radio" name="radio" value="yes" /> Yes</label>
+          <label><input type="radio" name="radio" value="no" /> No</label>
+        </fieldset>
+        <label for="textarea">Message *</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1">
+          I consent to being contacted by the team *</label
+        >
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
