@@ -1,12 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  --clr-green-200: hsl(148, 38%, 91%);
+  --clr-green-600: hsl(169, 82%, 27%);
+  --clr-red: hsl(0, 66%, 54%);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey-500: hsl(186, 15%, 59%);
+  --clr-grey-900: hsl(187, 24%, 22%);
 }
 
 body {
-  background-color: hsl(148, 38%, 91%);
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  align-items: center;
+  font-family: 'Karla', sans-serif;
+  background-color: var(--clr-green-200);
+  font-size: 16px;
 }
 
 .container {
-  background-color: white;
+  background-color: var(--clr-white);
 }
