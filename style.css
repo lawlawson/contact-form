@@ -28,12 +28,27 @@ body {
   width: 800px;
   max-width: 1440px;
 }
+
 .names {
   display: flex;
+  margin: 40px 0;
+}
+
+.fname {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-address {
+  margin: 40px 0;
 }
 
 .email-address input {
-  width: 100%;
+  width: 80%;
+}
+
+.queries {
+  margin: 40px 0;
 }
 
 fieldset {
@@ -43,6 +58,11 @@ fieldset {
 
 .text-area {
   display: flex;
+  margin: 40px 0;
+}
+
+.consent {
+  margin: 40px 0;
 }
 
 #submit-button {
